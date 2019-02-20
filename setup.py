@@ -9,5 +9,5 @@ setup(
         author='zhxhash',  # 作者
         author_email='zhxhash@vip.sina.com',  # 作者邮箱
         url='https://https://github.com/HashZhang/common-tool',      # 包的主页
-        packages=['demo'],                 # 包
+        packages=['.'],                 # 包
 )
