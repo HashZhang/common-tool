@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
         name='common-tool',     # 包名字
-        version='1.0.0-snapshot',   # 包版本
+        version='1.0.0.dev1',   # 包版本
         description='This is a test of the setup',   # 简单描述
         author='zhxhash',  # 作者
         author_email='zhxhash@vip.sina.com',  # 作者邮箱
