@@ -1,4 +1,5 @@
 from setuptools import setup
+from setuptools import find_packages
 # or
 # from distutils.core import setup
 
@@ -9,5 +10,5 @@ setup(
         author='zhxhash',  # 作者
         author_email='zhxhash@vip.sina.com',  # 作者邮箱
         url='https://https://github.com/HashZhang/common-tool',      # 包的主页
-        packages=['common'],                 # 包
+        packages=find_packages(where='.', exclude=(), include=('*',)),                 # 包，搜索所有的包含__init__.py的目录
 )
